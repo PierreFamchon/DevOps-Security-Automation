@@ -1,7 +1,7 @@
 <div align="center">
 
-  <img src="https://cdn-icons-png.flaticon.com/512/2875/2875331.png" alt="Logo VDI Project" width="120" height="120">
-
+  <img src="https://cdn-icons-png.flaticon.com/512/8943/8943615.png" alt="Logo Remote Access" width="120" height="120">
+  
   # 🖥️ Infrastructure VDI & Automatisation (SAE 5.01)
 
   **Conception, Déploiement et Automatisation d'une Infrastructure de Bureau Virtuel**
@@ -139,8 +139,8 @@ Ce projet a permis de livrer une plateforme "Clef en main" répondant aux contra
 
 Étudiants R&T 3ème Année (2025-2026)
 
-    Pierre FAMCHON (Chef de projet, Automatisation, AD, Guacamole)
-
-    Nicolas ÉDOUARD (Virtualisation, Réseau, Templates)
-
-    Yohan PIEK (Documentation, Tests, Support)
+| Nom | Rôle |
+| :--- | :--- |
+| **Pierre Famchon** | Lead Network / Automatisation / AD / Guacamole |
+| **Nicolas Edouard** | Virtualisation / Réseau / Templates |
+| **Yohann Piek** | Docummentation / Tests / Support |
