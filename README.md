@@ -47,7 +47,7 @@ Voici l'organisation des projets présents dans ce répertoire :
 
 ## 🎓 Détail des Semestres
 
-### **📈 BUT SEMESTRE 5 :  📂 [DevOps-SecOps-Automatisation/](./Advanced-Solution-Design)**
+### **📈 BUT SEMESTRE 5 :  📂 [Advanced-Solution-Design/](./Advanced-Solution-Design)**
 
 | Projet | Thématique | Technologies Clés |
 | :--- | :--- | :--- |
