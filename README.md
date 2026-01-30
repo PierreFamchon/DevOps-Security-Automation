@@ -45,15 +45,21 @@ Voici l'organisation des projets présents dans ce répertoire :
     └── 📂 Incident-Response-Forensics       
 ```
 
-## 🎓 Détail des Semestres
+## 🎓 RT3 : Détail des Semestres : 📂 [DevOps-Security-Automatisation/](./)
 
 ### **📈 BUT SEMESTRE 5 :  📂 [Advanced-Solution-Design/](./Advanced-Solution-Design)**
+
+<br> 
 
 | Projet | Thématique | Technologies Clés |
 | :--- | :--- | :--- |
 | **📂 [Enterprise-Infrastructure-Project](./Advanced-Solution-Design/Enterprise-Infrastructure-Project)** | **Infrastructure VDI & Auto.**<br>Solution d'accès distant aux TP. | ![Proxmox](https://img.shields.io/badge/Virt-Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white) ![Guacamole](https://img.shields.io/badge/Gateway-Guacamole-256627?style=flat-square&logo=apache&logoColor=white) <br> ![Python](https://img.shields.io/badge/Auto-Python_Flask-3776AB?style=flat-square&logo=python&logoColor=white) |
 
+<br>
+
 ### **📈 BUT SEMESTRE 6 :  📂 []()**
+
+<br> 
 
 | Projet | Thématique | Technologies Clés |
 | :--- | :--- | :--- |
