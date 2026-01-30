@@ -35,13 +35,14 @@ Cette année de spécialisation se concentre sur la conception d'architectures c
 Voici l'organisation des projets présents dans ce répertoire :
 
 ```text
-📂 RT3-Projets/
-├── 📂 BUT SEMESTRE S5 | SAE/
-│   └── 📂 SAE5.01 - Concevoir, réaliser et présenter une solution technique
+📂 DevOps-SecOps-Engineering/                 
 │
-└── 📂 BUT SEMESTRE S6 | SAE/
-    ├── 📂 SAE6 - Stages et entreprises
-    └── 📂 SAE6.Cyber.01 - Réagir face à une cyber-attaque
+├── 📂 Advanced-Solution-Design/             
+│   └── 📂 Enterprise-Infrastructure-Project 
+│
+└── 📂 Cyber-Defense-Operations/              
+    ├── 📂 End-of-Studies-Internship         
+    └── 📂 Incident-Response-Forensics       
 ```
 
 ## 🎓 Détail des Semestres
@@ -50,13 +51,13 @@ Voici l'organisation des projets présents dans ce répertoire :
 
 | Projet | Thématique | Technologies Clés |
 | :--- | :--- | :--- |
-| **SAE 5.01** | **Infrastructure VDI & Auto.**<br>Solution d'accès distant aux TP. | ![Proxmox](https://img.shields.io/badge/Virt-Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white) ![Guacamole](https://img.shields.io/badge/Gateway-Guacamole-256627?style=flat-square&logo=apache&logoColor=white) <br> ![Python](https://img.shields.io/badge/Auto-Python_Flask-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **📂 Enterprise-Infrastructure-Project** | **Infrastructure VDI & Auto.**<br>Solution d'accès distant aux TP. | ![Proxmox](https://img.shields.io/badge/Virt-Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white) ![Guacamole](https://img.shields.io/badge/Gateway-Guacamole-256627?style=flat-square&logo=apache&logoColor=white) <br> ![Python](https://img.shields.io/badge/Auto-Python_Flask-3776AB?style=flat-square&logo=python&logoColor=white) |
 
 ### 📂 BUT SEMESTRE 6
 
 | Projet | Thématique | Technologies Clés |
 | :--- | :--- | :--- |
-| **SAE 6.Stage** | **Stage de Fin d'Études**<br>Immersion professionnelle et mémoire. | ![Pro](https://img.shields.io/badge/Type-Professionnel-blueviolet?style=flat-square) ![Rapport](https://img.shields.io/badge/Doc-M%C3%A9moire-lightgrey?style=flat-square) |
+| **📂 End-of-Studies-Internship** | **Stage de Fin d'Études**<br>Immersion professionnelle et mémoire. | ![Pro](https://img.shields.io/badge/Type-Professionnel-blueviolet?style=flat-square) ![Rapport](https://img.shields.io/badge/Doc-M%C3%A9moire-lightgrey?style=flat-square) |
 | **SAE 6.Cyber** | **Réponse à Incident**<br>Réagir face à une cyber-attaque. | ![BlueTeam](https://img.shields.io/badge/Sec-Blue_Team-blue?style=flat-square) ![SOC](https://img.shields.io/badge/Ops-SOC%2FSIEM-red?style=flat-square) |
 
 ---
