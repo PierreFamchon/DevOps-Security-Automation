@@ -137,6 +137,47 @@ Au lieu d'attendre la remontée d'IP par l'agent QEMU (lent), nous utilisons une
 
 ---
 
+## 📅 Déroulement du Projet
+Le projet a été mené en plusieurs phases successives, partant de l'installation de l'infrastructure physique pour aboutir au développement de la couche d'automatisation logicielle.
+
+### Phase 1 : Déploiement de l'Hyperviseur (Proxmox VE)
+
+* Installation de l'OS Proxmox VE 8.0 sur le serveur physique.
+* Configuration réseau avancée avec la création d'un pont Linux (vmbr0) isolé pour le LAN interne.
+* Configuration du proxy système pour permettre les mises à jour et l'installation des paquets nécessaires.
+
+### Phase 2 : Sécurisation & Routage (pfSense)
+
+* Déploiement de la VM Firewall agissant comme passerelle unique.
+* Configuration des interfaces WAN (DHCP) et LAN (Statique).
+* Mise en place du NAT Outbound pour l'accès Internet des VMs et du Port Forwarding (8080) pour exposer le portail Guacamole.
+
+### Phase 3 : Services d'Annuaire (Active Directory)
+
+* Installation d'un Contrôleur de Domaine Windows Server 2016 (dom-famchon.rt.lan).
+* Configuration des services DNS avec zones de recherche directes et inversées pour la résolution interne.
+* Structuration de l'annuaire via des Unités d'Organisation (OU) et création des comptes de service pour la liaison LDAP.
+
+### Phase 4 : Passerelle d'Accès (Apache Guacamole)
+
+* Installation des composants cœurs : Tomcat 9, le proxy daemon guacd et les librairies RDP/SSH.
+* Mise en place d'une authentification hybride : LDAP (AD) pour les utilisateurs et MySQL pour les configurations techniques.
+* Résolution des problèmes de dépendances LDAP via l'ajout manuel des bibliothèques Java nécessaires.
+
+### Phase 5 : Automatisation & Portail Web
+
+* Développement de l'application d'orchestration en Python (Flask).
+* Intégration des APIs REST de Proxmox (gestion des VMs) et de Guacamole (gestion des sessions).
+* Implémentation d'un Workflow DNS prédictif permettant une connexion instantanée aux machines sans attendre la remontée DHCP.
+
+### Phase 6 : Golden Images & Intégration
+
+* Création de templates optimisés ("Golden Images") pour Windows 10, Ubuntu et Kali Linux.
+* Installation des agents QEMU et des outils de jonction au domaine (realmd, adcli).
+* Mise en place du Zero Touch Provisioning : script de jonction automatique à l'AD dès le premier démarrage de la VM clonée.
+
+---
+
 ## 📊 Bilan
 
 Ce projet a permis de livrer une plateforme "Clef en main" répondant aux contraintes de sécurité et de performance.
